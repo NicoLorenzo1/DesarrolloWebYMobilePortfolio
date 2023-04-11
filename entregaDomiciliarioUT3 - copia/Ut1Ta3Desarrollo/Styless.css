@@ -1,0 +1,35 @@
+h1 {
+    color: hotpink;
+}
+
+h2 {
+    font-style: initial;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h4 {
+    color: indianred;
+}
+
+hr {
+    width: 97%;
+    border-top: 8px dotted rgb(152, 65, 152)
+}
+
+.cuadro {
+    height: 160px;
+    width: 560px;
+    border: 5px solid rgb(152, 65, 152);
+    position: absolute;
+    top: 40%;
+    left: 1.7%;
+}
+
+.cuadroPrincipal {
+    height: 600px;
+    width: 600px;
+    border: 10px solid black;
+}

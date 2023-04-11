@@ -1,0 +1,21 @@
+.titulo{
+    color: rgb(62, 195, 45);
+}
+.botonClase
+{
+    border-color: blueviolet;
+    background-color: aqua;
+}
+.titulo{
+    font-style:oblique;
+    font-size: large;
+}
+.claseTabla{
+    width: 100%;
+    border: 1px solid #000;
+}
+th, td{
+    width:  25%;
+    text-align: center;
+    border: 1px solid #4d0cf1;
+}
