@@ -1,0 +1,13 @@
+.generalDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*ajusta horizontalmente*/
+    align-items: center;
+}
+
+.IndividualCar {
+    box-sizing: border-box;
+    margin: 2%;
+    border: 1px solid black;
+}

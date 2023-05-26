@@ -1,0 +1,26 @@
+.IndividualCar {
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 30px;
+    display: inline-block;
+
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    /* Cambia el valor alfa a 0 para hacerlo transparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}

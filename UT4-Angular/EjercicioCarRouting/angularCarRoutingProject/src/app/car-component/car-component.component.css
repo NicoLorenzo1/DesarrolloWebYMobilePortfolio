@@ -1,0 +1,32 @@
+.general {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* justify-content: flex-start; para que aparezcan de izquierda a derecha*/
+}
+
+.IndividualCar {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2%;
+    border: 1px solid black;
+    width: 25%;
+    float: left;
+}
+
+.IndividualCar img {
+    height: auto;
+    width: 30%;
+}
+
+.dataDiv {
+    flex: 1;
+    padding: 10px;
+}
+
+.dataDiv h2,
+.dataDiv h3 {
+    margin: 0;
+}

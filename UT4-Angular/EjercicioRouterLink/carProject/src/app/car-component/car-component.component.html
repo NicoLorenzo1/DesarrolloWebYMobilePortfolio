@@ -1,0 +1,11 @@
+<div class="generalDiv">
+    <div class="IndividualCar" *ngFor="let car of carArray">
+        <img [src]="car.imageURL" alt="">
+        <h2>modelo: {{car.model}}</h2>
+        <h3>Descripcion: {{car.description}}</h3>
+        <h3>tipo de vehiculo: {{car.type}}</h3>
+        <button [routerLink]="['/zoomCar', car.imageURL, car.model, car.description, car.type]">boton</button>
+        <button [routerLink]="'/prueba'">boton2</button>
+
+    </div>
+</div>

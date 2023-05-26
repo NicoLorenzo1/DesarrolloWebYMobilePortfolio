@@ -1,0 +1,41 @@
+.generalSeccion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    float: left;
+}
+
+.cardBox {
+    width: 300px;
+    /* Ajusta el ancho según tus necesidades */
+    margin: 10px;
+    /* Ajusta los márgenes según tus necesidades */
+    padding: 10px;
+    /* Ajusta el relleno según tus necesidades */
+    border: 1px solid #ccc;
+    /* Ajusta el estilo del borde según tus necesidades */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20%;
+
+}
+
+.imgClass {
+    width: 100%;
+    /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto;
+    /* Ajusta la altura de la imagen según tus necesidades */
+}
+
+.titleClass {
+    font-size: 20px;
+    /* Ajusta el tamaño de la fuente según tus necesidades */
+    margin-top: 10px;
+    /* Ajusta los márgenes según tus necesidades */
+}
+
+.descriptionClass {
+    margin-top: 5px;
+    /* Ajusta los márgenes según tus necesidades */
+}

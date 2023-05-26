@@ -1,0 +1,9 @@
+.generalCar {
+    width: 33%;
+    float: left;
+    border: 1px solid black;
+}
+
+.car_box {
+    background-color: rgb(238, 192, 135);
+}

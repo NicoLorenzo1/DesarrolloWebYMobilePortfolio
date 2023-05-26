@@ -1,0 +1,7 @@
+<div>
+    <div *ngIf="listOfBeach.length > 0">
+        <div *ngFor="let beach of listOfBeach">
+            <app-beach [beach]="beach"></app-beach>
+        </div>
+    </div>
+</div>
