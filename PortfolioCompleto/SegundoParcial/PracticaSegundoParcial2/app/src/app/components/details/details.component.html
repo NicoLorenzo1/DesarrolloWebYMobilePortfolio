@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Details
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-spinner *ngIf="!product"></ion-spinner>
+  <ion-card *ngIf="product">
+    <div id="carrousel">
+      <img *ngFor="let photo of product.images" alt="photo" [src]="photo" />
+    </div>
+    <ion-card-header>
+      <ion-card-title>{{product.name}}</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <h2>Price: {{product.price}}$</h2>
+      <small>{{product.stock}} Available</small>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

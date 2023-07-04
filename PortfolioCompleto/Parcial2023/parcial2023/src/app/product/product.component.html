@@ -1,0 +1,10 @@
+<div class="generalSeccion">
+    <div class="cardBox">
+        <img class="imgClass" [src]="product.imageURL">
+        <h2 class="modelClass"> nombre producto: {{product.name}}</h2>
+        <p class="descriptionClass"> descripción: {{product.cost}}</p>
+        <p class="typeClass"> stock: {{product.stock}}</p>
+        <button [routerLink]="['product', product.id]">ver
+            detalles</button>
+    </div>
+</div>

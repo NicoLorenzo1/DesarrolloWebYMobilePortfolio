@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div>
+    <app-product-card *ngFor="let business of businessList" [business]="business"
+      routerLink="/details/{{this.business.businessName}}"></app-product-card>
+  </div>
+  <ion-button (click)="newBusiness()">Agregar empresa</ion-button>
+</ion-content>

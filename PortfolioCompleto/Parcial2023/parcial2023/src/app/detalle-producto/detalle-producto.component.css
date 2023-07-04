@@ -1,0 +1,35 @@
+.generalSeccion {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    background-color: chocolate;
+  }
+  
+  .cardBox {
+    text-align: center;
+  }
+  
+  .imgClass {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .modelClass {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .descriptionClass,
+  .typeClass {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  

@@ -1,0 +1,15 @@
+<ion-card>
+  <img alt="{{product.name}} photo" [src]="product.images[0]" />
+  <ion-card-header>
+    <ion-card-title>{{product.name}}</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    <div>
+      {{product.price}}$
+    </div>
+    <div>
+      {{product.stock}} Available
+    </div>
+  </ion-card-content>
+</ion-card>
